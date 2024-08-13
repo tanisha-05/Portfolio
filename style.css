@@ -1,0 +1,198 @@
+header {
+    height: 70px;
+    background-color: rgb(9, 123, 199);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+header img {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+}
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+header nav ul li {
+    margin-left: 15px;
+    line-height: 2.5;
+}
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.small {
+    margin-top: 70px;
+    margin-right: 180px; 
+}
+.midimg {
+    height: 300px;
+    width: 300px; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    margin-top: 30px; 
+}
+.content {
+    margin-left: 240px;
+    margin-top: 50px;
+}
+p {
+    font-size: 20px; 
+    margin: 0; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:  rgb(9, 123, 199);
+}
+h1 {
+    font-size: 36px; 
+    margin-top: 5px; 
+    margin-bottom: 5px;
+}
+.pa{
+    font-size: 17px; 
+    margin: 0; 
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    word-spacing: 2px;
+}
+.resume {
+    height: 40px;
+    width: 215px;
+    border: 1px solid rgb(9, 123, 199);
+    border-radius: 5px;
+    background-color: rgb(236, 236, 236); 
+    outline: none;
+}
+
+.resume a {
+    text-decoration: none; 
+    color: rgb(12, 12, 12); 
+    font-size: 18px; 
+}
+.aboutm{
+    display: inline;
+}
+.about{
+    align-items: center;
+    margin-left: 500px;
+    margin-top: 35px;
+    font-size: 42px;
+}
+.sidebox{
+    height: 180px;
+    width: 600px;
+    border-radius: 5px;
+    border: 2px solid rgb(9, 123, 199);
+    margin-top: 70px;
+    margin-left: 50px;
+    background-color: rgb(9, 123, 199);
+}
+.sideboxinner{
+    height: 120px;
+    width: 500px;
+    border: 0px solid black;
+    margin-top: 29px;
+    margin-left: 40px;
+    background-color: aliceblue;
+   
+}
+.rightsidebox {
+    height: 320px;
+    width: 550px;
+    margin-top: -240px;
+    margin-left: 750px;
+    margin-right: 180px;
+}
+.edu{
+    display:flex ;
+}
+.first{
+    height: 330px;
+    width: 350px;
+    border: 1zpx solid black;
+    border-radius: 8px;
+    margin-left: 70px;
+    display: inline;
+    margin-top: 25px;
+}
+.eduimg{
+    height: 250px;
+    width: 330px;
+    border-radius: 15px;
+    margin-left: 18px;
+    margin-top: 15px;
+}
+.fpa{
+    margin-left: 55px;
+    font-size: 17px; 
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.outerfooter {
+    background-color: rgb(9, 123, 199);
+    position: relative;
+    color: white;
+    padding: 20px;
+    height: 40px;
+    margin-top: 70px;
+    align-items: center;
+}
+.innerfooter {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px; 
+    margin-left: 500px; 
+    font-size: 20px;
+}
+.visit{
+    height: 30px;
+    width: 70px;
+    border: 1px solid black; 
+    border-color: rgb(9, 123, 199);
+    border-radius: 5px;
+    background-color: rgb(236, 236, 236); 
+    outline: none;
+    margin-left: 130px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.visit a {
+    text-decoration: none; 
+    color: rgb(12, 12, 12); 
+    font-size: 18px; 
+}
+label{
+    margin-top: 15px;
+    font-size: 25px;
+    margin-left: 410px;
+}
+input[type=text], input[type=email],textarea{
+    width: 350px;
+    padding: 12px;
+    margin-top: 6px;
+    margin-left: 440px;
+    border-radius: 10px;
+    border-color:  rgb(9, 123, 199);
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+input[type=submit] {
+    background-color:  rgb(9, 123, 199);
+    color: white;
+    border-color:  rgb(9, 123, 199);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 580px;
+}
